@@ -200,3 +200,115 @@ footer input::placeholder {
   color: white;
   font-size: 15px;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+  .hero-banner h1 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .positive-container h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .hero-banner {
+    height: 200px;
+  }
+  .hero-banner h1 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .hero-banner p {
+    font-size: 14px;
+  }
+  .hero-banner-content {
+    top: 10px;
+    left: 150px;
+    transform: translateX(-25%);
+  }
+  .bio-container {
+    display: block;
+  }
+  .bio-left {
+    width: 100%;
+    text-align: center;
+  }
+  .bio-right {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .bio ul {
+    text-align: left;
+    padding-left: 100px;
+  }
+  .positive-container h2 {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .plans-con {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer {
+    padding: 0 20px;
+  }
+  footer .container {
+    grid-template-columns: 1fr;
+  }
+  footer .left {
+    margin-bottom: 40px;
+  }
+  footer .left p {
+    font-size: 14px;
+    margin-bottom: 13px;
+  }
+  .brand-con > div {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .brand-con i {
+    line-height: 40px;
+    font-size: 25px;
+  }
+  footer input {
+    padding: 10px;
+    width: 80%;
+  }
+  .call-btn {
+    padding: 10px;
+    margin-top: 13px;
+  }
+  .call-btn2 {
+    padding: 5px 10px;
+  }
+  .call-btn3 {
+    padding: 10px 16px;
+    margin-bottom: 10px;
+  }
+  .br {
+    display: none !important;
+  }
+  section {
+    margin-top: 50px !important;
+  }
+  .plans {
+    margin-top: 50px;
+  }
+  .positive-mindset {
+    margin-top: 50px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  .bio h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 1;
+  }
+}
